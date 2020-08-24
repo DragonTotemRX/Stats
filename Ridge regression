@@ -1,0 +1,1 @@
+Ridge Regression line has a smaller slope than least square line, therefore, the prediction made with Ridge Regression line are less sensitive to Weight than the least squre line
