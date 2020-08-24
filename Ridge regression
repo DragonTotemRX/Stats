@@ -1,1 +1,13 @@
-Ridge Regression line has a smaller slope than least square line, therefore, the prediction made with Ridge Regression line are less sensitive to Weight than the least squre line
+If sample size is small, Ridge Regression line has a smaller slope than least square line, therefore, the prediction made with Ridge Regression line are less sensitive to Weight than the least squre line
+
+
+
+minimize:    the sum of the squared residuals  +  (ridge regression penalty)--->lambda (0 to infinity) *  slope (or any other parameters)squared 
+
+As lambda goes up, the slope goes smaller. So how do we determine lambda?
+
+try a bunch of values for lambda and use Cross validation, typically 10-fold Cross Validation, to determine which one results in the lowest variance. 
+
+ridge regression can also be used to logistic regression via optimize likelihood
+
+in general, ridge regression contains all of the parameters except for the y-intercept
